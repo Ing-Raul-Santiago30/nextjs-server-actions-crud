@@ -3,9 +3,9 @@ import { Taskform } from "./Task-form";
 import { Task } from "@prisma/client";
 
 function NewPage() {
-  // Puedes definir un objeto `task` con valores predeterminados
+  // Define un objeto `task` con valores predeterminados
   const task: Task = {
-    id: 0, // o cualquier ID por defecto
+    id: 0,
     name: '',
     description: '',
     priority: 'low',
